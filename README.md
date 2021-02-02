@@ -8,6 +8,9 @@ Le serveur comprenant l'api se retrouve dans ce repo [backend-twitter](https://g
 
 react , redux ,redux-saga ,webpack , chakra-ui
 
+#### Demo
+une video de ce projet se trouve dans le dossier /demo
+
 ### `npm start`
 
 Pour lancer le serveur front-end de ce projet
