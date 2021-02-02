@@ -10,4 +10,4 @@ react , redux ,redux-saga ,webpack , chakra-ui
 
 ### `npm start`
 
-    Pour lancer le serveur de ce projet
+Pour lancer le serveur front-end de ce projet
