@@ -1,8 +1,8 @@
 ## Pour commencer
 
-    Le serveur comprenant l'api se retrouve dans ce repo [backend-twitter](https://github.com/eteka03/twitter_backend).
+Le serveur comprenant l'api se retrouve dans ce repo [backend-twitter](https://github.com/eteka03/twitter_backend).
 
-    Ce projet liste les tweets les plus récents d'Hilary Clinton et de Barack Obama.
+    Ce projet liste les tweets les plus récents d'Hillary Clinton et de Barack Obama.
 
 ##### technologies
 
