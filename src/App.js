@@ -2,16 +2,21 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Layout from "./components/Layout";
-import { Button } from "@chakra-ui/react";
+
 import TweetsContainer from "./components/TweetsContainer";
+import { Provider } from "react-redux";
+
+import store from "./redux/store";
+import CustomButton from "./components/CustomButton";
+
 function App() {
   return (
-    <Layout>
-      <TweetsContainer />
-      <Button fontSize="1.3em" mt={8}>
-        Switch
-      </Button>
-    </Layout>
+    <Provider store={store}>
+      <Layout>
+        <TweetsContainer />
+        <CustomButton />
+      </Layout>
+    </Provider>
   );
 }
 

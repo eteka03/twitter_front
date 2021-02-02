@@ -1,11 +1,28 @@
 import { Box, Img, Text } from "@chakra-ui/react";
 import React from "react";
 
-const PictureBox = ({ imageUrl }) => {
+const PictureBox = ({ imageUrl, name }) => {
   return (
-    <Box display="flex" p={5} w="100%" h="15%" position="sticky">
-      <Img src={imageUrl} alt="profile image" title="profile image" />
-      <Text ml={4}>nom</Text>
+    <Box
+      alignItems="center"
+      display="flex"
+      p={5}
+      pt={1}
+      bgColor="#00aced"
+      pb={1}
+      w="100%"
+      h="20%"
+      position="sticky"
+    >
+      <Img
+        borderRadius="full"
+        boxSize="8
+        60px"
+        src={imageUrl}
+        alt="profile image"
+        title="profile image"
+      />
+      <Text ml={4}>{name}</Text>
     </Box>
   );
 };
